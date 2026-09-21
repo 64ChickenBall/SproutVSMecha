@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 58974638}
   - component: {fileID: 58974637}
   m_Layer: 0
-  m_Name: Level01
+  m_Name: Level01 (Manual Level 75%)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -241,7 +241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 341325082}
   m_Layer: 0
-  m_Name: Animated Sprite Showcase
+  m_Name: Animated Sprite Showcase (65%)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 350766737}
   - component: {fileID: 350766736}
   m_Layer: 0
-  m_Name: Audio Manager
+  m_Name: Audio Manager (35%)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -428,7 +428,7 @@ GameObject:
   - component: {fileID: 363063949}
   - component: {fileID: 363063951}
   m_Layer: 0
-  m_Name: Sprout (Player)
+  m_Name: Sprout (Player for the 85%)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3841,7 +3841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637149168}
   m_Layer: 0
-  m_Name: WaypointList
+  m_Name: WaypointList (for 85%)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13511,7 +13511,7 @@ GameObject:
   - component: {fileID: 1786547978}
   - component: {fileID: 1786547977}
   m_Layer: 0
-  m_Name: Level Generator
+  m_Name: Level Generator (enable the script component attached)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13636,7 +13636,7 @@ GameObject:
   - component: {fileID: 1860368993}
   - component: {fileID: 1860368994}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: Sprites (50%)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13675,9 +13675,9 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 589530945}
-  - {fileID: 363063948}
   - {fileID: 350766738}
   - {fileID: 401481218}
   - {fileID: 58974638}
+  - {fileID: 363063948}
   - {fileID: 1637149168}
   - {fileID: 1786547978}
