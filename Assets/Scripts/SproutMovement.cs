@@ -23,7 +23,7 @@ public class SproutMovement : MonoBehaviour
             animator.SetInteger("Currentwaypoint", currentWaypointIndex);
             float distance = Vector3.Distance(startPos, targetPos);
             float timeToMove = distance / movespeed;
-
+            
             float elapsedTime = 0f;
             while (elapsedTime < timeToMove) {
                 transform.position = Vector3.Lerp(startPos, targetPos, elapsedTime / timeToMove);
@@ -33,10 +33,5 @@ public class SproutMovement : MonoBehaviour
             transform.position = targetPos;
             currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
         }
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
