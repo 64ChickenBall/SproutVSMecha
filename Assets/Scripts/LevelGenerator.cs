@@ -106,6 +106,8 @@ public class LevelGenerator : MonoBehaviour
                         tilePrefab.transform.rotation = Quaternion.Euler(0, 0, 90);
                     }
 
+                    // desperation part 2
+                    
                     int up = SafeArrayAccess(bigLevelMap, i - 1, j);
                     int down = SafeArrayAccess(bigLevelMap, i + 1, j);
                     int left = SafeArrayAccess(bigLevelMap, i, j - 1);
